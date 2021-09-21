@@ -14,3 +14,7 @@ Handle the errors.
        GET /api/v1/data?select=name&sort=-name 
        PUT /api/v1/data/:id 
        DELETE /api/v1/data/:id
+
+# Create the .env file
+       PORT = 5000
+       MONGO = mongodburl
